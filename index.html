@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+
+
+    <link rel="icon" href="T icon.png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6a8385be34.js" crossorigin="anonymous"></script>
+
+    <title>My Portfolio</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Kenia&family=Lobster&family=Nerko+One&family=Source+Code+Pro:wght@200&family=Zen+Dots&display=swap');
+
+        body {
+            margin: 0;
+
+        }
+
+        .imghw1 {
+            position: fixed;
+            width: 45%;
+            height: 100%;
+            background-image: url(./image/ayush2.jpg);
+            background-position: right;
+            background-repeat: no-repeat;
+
+        }
+
+        .flx {
+            display: flex;
+            width: 100%;
+            height: 100%;
+        }
+
+        .fxd {
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0, 255, 255, 0);
+        }
+
+        .container {
+            width: 100%;
+            /* padding-right: var(--bs-gutter-x,.75rem); */
+            padding-left: var(--bs-gutter-x, .75rem);
+            margin-right: auto;
+            margin-left: 0;
+        }
+
+        .div2 {
+            background-color: #373b40;
+            width: 48%;
+            height: 100%;
+            margin-left: 45%;
+        }
+
+
+        .font {
+            color: aliceblue;
+            font-size: larger;
+            margin-top: 530px;
+            text-align: justify;
+        }
+
+        .fxd1 {
+            position: fixed;
+            width: 6.90%;
+            margin-left: 93.10%;
+            height: 100%;
+            background-color: #373b40;
+        }
+
+        .nvrps {
+            width: 86%;
+            margin-left: 9%;
+            background-color: #54595f;
+            border-radius: 50px;
+            height: 80px;
+            margin-top: 3%;
+            position: fixed;
+            z-index: 8;
+        }
+
+        .colo {
+            color: aliceblue;
+
+        }
+
+        .col {
+            color: aliceblue;
+            font-family: 'Dancing Script', cursive;
+            margin-left: 1%;
+            font-size: x-large;
+        }
+
+        .small {
+
+            width: 105%;
+        }
+
+        .cir1 {
+            position: absolute;
+            background-color: #373b40;
+            border-style: solid;
+            border-radius: 55%;
+            height: 280px;
+            width: 19%;
+            z-index: 6;
+            margin-left: 36%;
+            margin-top: 10%;
+            border-color: #373b40;
+        }
+
+        .div3 {
+            height: 100%;
+            width: 100%;
+        }
+
+        .font2 {
+            font-family: 'Dancing Script', cursive;
+            color: aliceblue;
+            text-align: center;
+            margin-top: 28%;
+            font-size: 320%;
+
+
+        }
+
+        .js {
+            COLOR: green;
+            text-decoration: none;
+            font-size: 20px;
+            position: absolute;
+            margin-top: 32%;
+        }
+
+        .navfont {
+            font-size: small;
+            font-weight: 800;
+            margin-left: 40px;
+        }
+
+        .navcv {
+            font-size: medium;
+            font-weight: 800;
+            margin-left: 20%;
+            border: 2px;
+            border-style: solid;
+            border-radius: 50px;
+            border-color: rgb(48, 175, 101);
+            height: 58px;
+            background-color: #54595f;
+            width: 18%;
+        }
+
+        .contact1 {
+            font-size: medium;
+            font-weight: 800;
+            border: 2px;
+            border-style: solid;
+            border-radius: 50px;
+            border-color: rgb(48, 175, 101);
+            height: 58px;
+            background-color: #373b40;
+            width: 21%;
+            margin-top: 4%;
+        }
+
+        .padding {
+            margin-left: 8%;
+        }
+
+        .hr {
+            width: 100%;
+            margin-top: 12%;
+            color: rgb(230 235 241);
+
+
+        }
+
+        .hr1 {
+            width: 48%;
+            margin-left: 0%;
+            position: absolute;
+            color: rgb(230 235 241);
+            margin-top: 11%;
+
+
+        }
+
+        .about {
+            color: aliceblue;
+            font-size: -webkit-xxx-large;
+            font-weight: 700;
+        }
+
+        .story {
+
+            margin-top: 5%;
+            font-size: medium;
+            font-weight: 900;
+            color: green;
+        }
+
+        .aboutfont {
+            color: aliceblue;
+            font-size: mediums;
+            font-weight: 600;
+            text-align: start;
+            margin-right: 10%;
+            margin-top: 7%;
+        }
+
+        .element2 {
+            margin-top: 3%;
+            margin-left: 50px;
+        }
+
+        .element1 {
+            margin-top: 3%;
+        }
+
+        .licolour {
+            color: green;
+            font-size: medium;
+            font-weight: 900;
+
+        }
+
+        .licolour2 {
+            color: aliceblue;
+            font-size: medium;
+            font-weight: 900;
+        }
+
+        .serviceselements {
+            color: green;
+            width: 13%;
+            margin-top: 30px;
+        }
+
+        .margin1 {
+            margin-top: 5%;
+            display: inline-flex;
+        }
+
+        .serviceselementsp {
+            color: aliceblue;
+            font-size: medium;
+            font-weight: 400;
+            margin-top: 5%;
+        }
+
+        .serviceselementsm {
+            margin-right: 19%;
+        }
+
+        .crouselpara {
+            color: aliceblue;
+            font-size: medium;
+            font-weight: 400;
+            margin-top: 5%;
+        }
+
+        .crouselpara2 {
+            margin-right: 19%;
+            margin-left: 14%;
+        }
+
+        .crouselclass {
+            margin-top: 40%;
+
+
+        }
+
+        .crouselcontent {
+            margin-left: 14%;
+            margin-top: 10%;
+            font-size: 168%;
+        }
+
+        .crouselcontentlower {
+            margin-left: 14%;
+            margin-top: 3%;
+            font-size: 168%;
+        }
+
+        .crouselcontent2 {
+            color: darkgrey;
+        }
+
+        .percentage {
+            display: block;
+            height: 2px;
+
+            width: 205px;
+            background: darkgrey;
+        }
+
+
+        .perc {
+            width: 90%;
+            height: 2px;
+            background-color: green;
+        }
+
+        .dot {
+            height: 13px;
+            width: 13px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .dot2 {
+            height: 13px;
+            width: 13px;
+            background-color: green;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .fontawesome {
+            color: green;
+        }
+
+        .fontawesome2 {
+            margin-top: 350px;
+            margin-left: 35%;
+        }
+
+        .halves-circle {
+            background: #fff;
+            height: 90px;
+            width: 90px;
+            border: 7px solid;
+            border-radius: 50%;
+            border-color: green green green #373b40;
+            transform: rotate(65deg);
+            background: #373b40;
+        }
+
+        .conborder {
+            border: 2px;
+            height: 520px;
+            width: 48%;
+            border-style: solid;
+            border-color: gray;
+            border-radius: 8%;
+            margin-top: 10%;
+
+        }
+
+        .conname {
+            margin-top: 5%;
+            color: antiquewhite;
+            font-size: xx-large;
+
+            margin-left: 5%;
+        }
+
+        .constyle {
+
+            
+            font-weight: 900;
+            color: green;
+            margin-left: 5%;
+            font-size: smaller;
+        }
+        .conelement {
+            margin-top: 10%;
+        }
+        
+
+        .confont {
+            font-family: 'Dancing Script', cursive;
+            color: aliceblue;
+            text-align: center;
+            margin-top: 15%;
+            font-size: 230%;
+
+
+        }
+        
+    </style>
+
+</head>
+
+<body>
+
+    <!--nav-->
+    <div style="display: grid;">
+        
+   
+    <div style="display: grid;" id="home">
+
+        <nav class="navbar navbar-expand-lg nvrps">
+            <div class="container-fluid">
+
+                <div>
+                    <img class="small" src="./image/icons8-xbox-a-48.png" alt="T Symbol">
+                </div>
+
+                <a class="navbar-brand col" href="#">Ayush <br> yadav</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item">
+                            <a class="nav-link active colo navfont" aria-current="page" href="#home">HOME</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active colo navfont" aria-current="page" href="#about.me">ABOUT</a>
+
+
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active colo navfont" aria-current="page" href="#resume">RESUME</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active colo navfont" aria-current="page" href="#">PORTFOLIO</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active colo navfont" aria-current="page" href="#contact">CONTACTS</a>
+                        </li>
+
+
+
+                    </ul>
+
+                    <button class="navcv">Download CV</button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Navbar End Here-->
+
+
+
+
+        <div class="div3">
+            <div class="cir1">
+                <h1 class="font2">Ayush <br> yadav</h1>
+            </div>
+
+        </div>
+        <!--Div Circle In Center of Page-->
+
+
+
+
+        <!--- main img-->
+        <div class="flx">
+
+
+            <div class="imghw1">
+                <div class="fxd"></div>
+            </div>
+            <!--- main img end's here-->
+
+
+            <!---js part-->
+
+
+            <div class="div2">
+                <div class="padding">
+                    <h1>
+                        <a href="" class="typewrite js" data-period="2000"
+                            data-type='[ "WEB DESIGNER |", "PROGRAMMER |", "CONSULTANT AND MENTOR |"]'>
+                            <span class="wrap"></span>
+                        </a>
+                    </h1>
+                </div>
+
+                <!---js part end's here-->
+
+
+
+
+                <!--Home Section of Center Div-->
+
+
+                <p class="font padding">Hello! I am Web Developer from United States, New York. I have <br> rich
+                    experience in web site
+                    design and
+                    building, also I am good at <br> wordpress. I love to talk with you about our unique.</p>
+
+                <button class="contact1 padding"> CONTACT ME </button>
+
+                <!--Home Section of Center Div end's her-->
+
+                <hr class="hr">
+
+
+                <!--ABout Me Section of Center Div-->
+
+                <div >
+
+                    <div class="padding" id="about.me">
+
+                        <h1 class="about"> About Me </h1>
+
+                        <span class="story">MY STORY</span>
+
+                        <p class="aboutfont">Pellentesque posuere. Praesent turpis. Aenean posuere, tortor sed cursus
+                            feugiat,
+                            nunc augue blandit
+                            nunc, eu sollicitudin urna dolor sagittis lacus. Pellentesque posuere. Praesent turpis.
+                            Aenean
+                            posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor
+                            sagittis
+                            lacus.</p>
+                        <p class="aboutfont">Pellentesque posuere. Praesent turpis. Aenean posuere, tortor sed cursus
+                            feugiat,
+                            nunc augue blandit
+                            nunc, eu sollicitudin urna dolor sagittis lacus. Donec elit libero, sodales nec, volutpat a,
+                            suscipit non, turpis.</p>
+
+                        <div style="display: inline-flex;">
+
+                            <ul class="element1">
+                                <li> <strong> <span class="licolour"> Age: </span> </strong> <span class="licolour2"> 23
+                                    </span>
+                                </li>
+                                <li> <strong> <span class="licolour"> Residence: </span> </strong> <span
+                                        class="licolour2">
+                                        INDIA </span></li>
+                                <li> <strong> <span class="licolour"> Freelance: </span> </strong> <span
+                                        class="licolour2">
+                                        Available </span></li>
+                            </ul>
+                            <ul class="element2">
+                                <li> <strong> <span class="licolour"> Address: </span> </strong> <span
+                                        class="licolour2">
+                                        BHOPAL
+                                    </span></li>
+                                <li> <strong> <span class="licolour"> Phone: </span> </strong> <span class="licolour2">
+                                        +91
+                                        8349208811 </span></li>
+                                <li> <strong> <span class="licolour"> E-mail: </span> </strong> <span class="licolour2">
+                                        ayushyadav@9990.com </span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <hr class="hr">
+
+                    <!--ABout Me Section of Center Div end's her-->
+
+
+
+
+                    <!--Services Serction of 1st Div of Upper 2 Elements-->
+
+                    <div class="padding">
+                        <h1 class="about">Services</h1>
+                        <span class="story">WHAT I DO</span>
+                        <div>
+                            <div class="margin1 ">
+                                <div>
+                                    <img src="./image/economic.png" alt="" class="serviceselements">
+                                    <br>
+                                    <span class="licolour2">Economic <br>
+                                        Science</span>
+
+                                    <p class="serviceselementsp serviceselementsm">Economics is a social science
+                                        concerned
+                                        with the
+                                        production,
+                                        consumption of goods and services.
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <img src="./image/marketing.png" alt="" class="serviceselements">
+                                    <br>
+                                    <span class="licolour2">Marketing <br>
+                                        & Advertising</span>
+                                    <p class="serviceselementsp serviceselementsm">Advertising Management though is a
+                                        complex
+                                        process of employing various media to sell a product
+                                        or service.</p>
+                                </div>
+                            </div>
+
+
+                            <!--Services Serction of 1st Div of Upper 2 Elements end's her-->
+
+
+
+                            <div class="margin1 ">
+                                <div>
+                                    <img src="./image/web dev.png" alt="" class="serviceselements">
+                                    <br>
+                                    <span class="licolour2">Web <br>
+
+                                        Development</span>
+
+                                    <p class="serviceselementsp serviceselementsm">The web development process includes:
+                                        web
+                                        design, web content, client-side / server-side scripting and network security
+                                        configuration.
+
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <img src="./image/cam.png" alt="" class="serviceselements">
+                                    <br>
+                                    <span class="licolour2">Photography
+                                        <br>& Video
+                                    </span>
+                                    <p class="serviceselementsp serviceselementsm">
+                                        Sessions. If you are a photographer that spends most of the time in a portrait
+                                        studio, you can charge for your session. </p>
+                                </div>
+                            </div>
+
+
+                            <!--Services Serction of 1st Div of Lower 2 Elements end's here-->
+                        </div>
+                    </div>
+
+                    <hr class="hr">
+                </div>
+                <!--Services Serction end's here-->
+
+
+
+
+                <!--Section education-->
+
+
+
+                <div class="padding" id="resume">
+                    <h1 class="about">Education</h1>
+                    <span class="story">STUDIED AT</span>
+
+
+                    <div id="carouselExampleAutoplaying" class="carousel slide " data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+
+
+                                <h1 class="licolour2 crouselcontent ">Sagar institue of science & <br> technology</h1>
+
+                                <h1 class="crouselcontent2 crouselcontentlower"> civil engineering </h1>
+                                <p class="crouselpara crouselpara2">Civil engineering is a professional engineering
+                                    discipline that deals with the
+                                    design, construction, and maintenance of the physical and naturally built
+                                    environment, including public works such as roads, bridges, canals, dams, airports,
+                                    sewage systems, pipelines, structural components of buildings, and railways.</p>
+                            </div>
+                            <div class="carousel-item">
+                                <h1 class="licolour2 crouselcontent ">Train it <br> institue</h1>
+
+                                <h1 class="crouselcontent2 crouselcontentlower"> web developing course </h1>
+                                <p class="crouselpara crouselpara2">Web development refers to the creating, building,
+                                    and maintaining of websites. It
+                                    includes aspects such as web design, web publishing, web programming, and database
+                                    management. It is the creation of an application that works over the internet i.e.
+                                    websites.</p>
+                            </div>
+                            <div class="carousel-item">
+                                <h1 class="licolour2 crouselcontent ">Train it <br> institue</h1>
+
+                                <h1 class="crouselcontent2 crouselcontentlower"> programming course </h1>
+                                <p class="crouselpara crouselpara2">Programming refers to a technological process for
+                                    telling a computer which tasks to
+                                    perform in order to solve problems. You can think of programming as a collaboration
+                                    between humans and computers, in which humans create instructions for a computer to
+                                    follow (code) in a language computers can understand.</p>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev crouselclass" type="button"
+                            data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next crouselclass" type="button"
+                            data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                </div>
+                <!--section education end's here-->
+
+                <hr class="hr">
+
+                <!--Section designing skill -->
+
+
+
+                <div class="padding">
+                    <h1 class="about">Design Skills</h1>
+                    <span class="story">CREATIVE ABILITY</span> <br>
+
+                    <div>
+                        <div class="margin1 ">
+                            <div>
+
+
+                                <span class="licolour2"> Web layout
+                                </span>
+
+                                <p class="serviceselementsp serviceselementsm">A website layout is the arrangement of
+                                    all visual elements on a webpage. Through the intentional positioning of page
+                                    elements.
+                                </p>
+
+
+                            </div>
+                            <div>
+                                <span class="licolour2"> Photoshop</span>
+
+                                <p class="serviceselementsp serviceselementsm">Photoshop is an image creation, graphic
+                                    design and photo editing software developed by Adobe. The software provides many
+                                    image editing features for pixel-based images.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="margin1 ">
+                            <div>
+                                <span class="story">90%</span>
+                                <div class="percentage">
+                                    <div class="perc">
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div style="margin-left: 83px;">
+                                <span class="story">90%</span>
+                                <div class="percentage">
+                                    <div class="perc">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!--Section designing skill end's here -->
+
+                <hr class="hr">
+
+                <!--Section language -->
+                <div>
+                    <div class="padding">
+                        <h1 class="about">Language <br> Skills</h1>
+                        <span class="story">READING AND WRITING</span>
+
+                        <div>
+                            <div class="margin1 ">
+                                <div>
+
+
+                                    <span class="licolour2"> English
+                                    </span>
+
+                                    <p class="serviceselementsp serviceselementsm">The English language is an
+                                        Indo-European language in the West Germanic language group. Modern English is
+                                        widely considered to be the lingua franca of the world and is the standard
+                                        language in a wide variety of fields, including computer coding,
+                                    </p>
+
+
+                                </div>
+                                <div>
+                                    <span class="licolour2"> Hindi</span>
+
+                                    <p class="serviceselementsp serviceselementsm">It is the main language in India.
+                                        About 800 million people speak Hindi in India. The Devanāgarī script is used to
+                                        write Hindi. Previously Hindi was known as Hindui.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="margin1 ">
+                            <div>
+                                <span class="dot2"></span>
+                                <span class="dot2"></span>
+                                <span class="dot2"></span>
+                                <span class="dot2"></span>
+                                <span class="dot2"></span>
+                                <span class="dot2"></span>
+                                <span class="dot2"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+
+                            </div>
+
+                            <div style="margin-left: 238px;">
+                                <span class="dot2"></span>
+                                <span class="dot2"></span>
+                                <span class="dot2"></span>
+                                <span class="dot2"></span>
+                                <span class="dot2"></span>
+                                <span class="dot2"></span>
+                                <span class="dot2"></span>
+                                <span class="dot2"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Section language end's here-->
+
+                <hr class="hr">
+
+
+
+                <!--Section coding skills-->
+
+                <div>
+                    <div class="padding">
+                        <h1 class="about">Coding Skills</h1>
+                        <span class="story">DEVELOPING ON</span>
+                        <div>
+                            <div class="margin1 ">
+                                <div>
+                                    <div>
+
+                                        <div class="halves-circle">
+                                            <h5 style="color: #bbb; rotate: -65deg;"> 80%</h5>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <span class="licolour2">HTML, CSS
+                                    </span>
+
+                                    <p class="serviceselementsp serviceselementsm">HTML (the Hypertext Markup Language)
+                                        and CSS (Cascading Style Sheets) are two of the core technologies for building
+                                        Web pages.
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <div class="halves-circle">
+                                        <h5 style="color: #bbb; rotate: -65deg;"> 70%</h5>
+                                    </div>
+                                    <br>
+                                    <span class="licolour2">JavaScript
+                                    </span>
+                                    <p class="serviceselementsp serviceselementsm">avaScript is a prototype-based,
+                                        multi-paradigm, single-threaded, dynamic language, supporting object-oriented,
+                                        imperative, and declarative.</p>
+                                </div>
+
+                            </div>
+                            <div>
+                                <div>
+                                    <div class="halves-circle">
+                                        <h5 style="color: #bbb; rotate: -65deg;"> 85%</h5>
+                                    </div>
+                                    <br>
+                                    <span class="licolour2">MYSQL
+                                    </span>
+                                    <p class="serviceselementsp serviceselementsm">MySQL is a relational database
+                                        management system
+                                        The database structure is organized into physical files optimized for speed. The
+                                        logical data model, with objects such as data tables, views, rows, and columns,
+                                        offers a flexible programming environment.</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Section coding skills end's here-->
+
+
+                    <hr class="hr">
+
+
+
+
+                    <!--Section contact-->
+
+
+                    <div  id="contact">
+                        <div class="padding">
+                            <h1 class="about">Contact</h1>
+                            <span class="story">LET'S TALK</span>
+                            <div class="conborder">
+                                <h1 class="conname">Ayush yadav</h1>
+                                <span class="constyle">
+                                    CONSULTANT & MENTOR
+                                </span>
+                                
+                        <div >
+
+                            <ul class="conelement">
+                                <li> <strong> <span class="licolour"> Age: </span> </strong> <span class="licolour2"> 23
+                                    </span>
+                                </li>
+                                <br>
+                                <li> <strong> <span class="licolour"> Residence: </span> </strong> <span
+                                        class="licolour2">
+                                        INDIA </span></li>
+                                        <br>
+                                <li> <strong> <span class="licolour"> Freelance: </span> </strong> <span
+                                        class="licolour2">
+                                        Available </span></li>
+                            <br>
+                            
+                                <li> <strong> <span class="licolour"> Address: </span> </strong> <span
+                                        class="licolour2">
+                                        BHOPAL
+                                    </span></li>
+                                    <br>
+                                <li> <strong> <span class="licolour"> Phone: </span> </strong> <span class="licolour2">
+                                        +91
+                                        8349208811 </span></li>
+                                        <br>
+                                <li> <strong> <span class="licolour"> E-mail: </span> </strong> <span class="licolour2">
+                                        ayushyadav@9990.com </span></li>
+                            </ul>
+
+                            <h1 class="confont">Ayush yadav</h1>
+                        </div>
+                    </div>
+                    
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+
+                    <hr class="hr">
+
+
+
+
+
+                </div>
+            </div>
+            <!--Center Div of Webpage-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="fxd1">
+                <div class="fontawesome2">
+                    <i class="fa-brands fa-facebook fa-bounce fa-2xl fontawesome "></i>
+                    <br><br>
+                    <a href="https://instagram.com/ayush562?igshid=NTc4MTIwNjQ2YQ=="><i class="fa-brands fa-instagram fa-flip fa-2xl fontawesome"></i></a>
+                    <br><br>
+                   <a href="https://wa.me/+918349208811"><i class="fa-brands fa-whatsapp fa-beat fa-2xl fontawesome"></i></a>
+                </div>
+            </div>
+
+            <!--Corner Div of Webpage-->
+
+
+        </div>
+ </div>
+</body>
+
+
+
+<script>
+    var TxtType = function (el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function () {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+            this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+            this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+            delta = this.period;
+            this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+            this.isDeleting = false;
+            this.loopNum++;
+            delta = 500;
+        }
+
+        setTimeout(function () {
+            that.tick();
+        }, delta);
+    };
+
+    window.onload = function () {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i = 0; i < elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+                new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+        document.body.appendChild(css);
+    };
+</script>
+
+</html>
